@@ -1,0 +1,61 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 0.24rem;
+    height: 64px;
+    background: #3f51b5;
+    color: rgba(255,255,255,0.87);
+    box-shadow: 0 3px 3px rgba(0,0,0,0.12);
+    z-index: 5;
+}
+header .title {
+    font-size: 18px;
+    line-height: 64px;
+    float: left;
+    padding: 0 16px 0 80px;
+    font-weight: 500;
+}
+header .header-links {
+    float: right;
+}
+header .header-links .header-link {
+    float: left;
+    padding: 0 10px;
+    line-height: 64px;
+}
+header .header-links .header-link a {
+    color: rgba(255,255,255,0.87);;
+}
+/*header end*/
+.navigation {
+    position: absolute;
+    top: 0;
+    font-size: 0.24rem;
+    width: 64px;
+    background: white;
+    box-shadow: 1px 0 3px rgba(0,0,0,0.12);
+
+}
+#logo {
+    position: absolute;
+    height: 64px;
+    width: 24px;
+    padding: 0 20px;
+    line-height: 64px;
+}
+.navigation .nav-links {
+    padding:  64px 0  0 0;
+
+}
+.navigation .nav-links .nav-link {
+    line-height: 50px;
+    padding:  0 20px;
+}
+.navigation .nav-links .nav-link a i {
+    font-size: 20px;
+}
+.box-inner {
+    margin: 96px 32px 0 96px;
+    background: white;
+}
